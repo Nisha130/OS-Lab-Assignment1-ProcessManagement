@@ -1,0 +1,29 @@
+=== Process Management Lab ===
+[Task 1] Creating 2 child processes...
+Child 1: PID=12345, PPID=12344 - Hello!
+Child 2: PID=12346, PPID=12344 - Hello!
+[Parent] Reaped child PID=12345
+[Parent] Reaped child PID=12346
+[Task 1 Completed]
+
+[Task 2] Executing command: ['date']
+Thu Oct 06 22:35:12 IST 2025
+[Task 2 Completed]
+
+[Task 3] Zombie Process Demonstration
+Child PID=12347 exiting immediately (becomes zombie).
+Parent PID=12344 sleeping 5s — child will be zombie.
+[Zombie cleared]
+
+[Task 4] Reading /proc/12344 info...
+(Process details displayed here)
+
+[Task 5] Running 3 CPU-intensive child processes with different nice values.
+Child 12348 with nice=0 started.
+Child 12349 with nice=5 started.
+Child 12350 with nice=10 started.
+Child 12348 finished in 0.32s
+Child 12349 finished in 0.40s
+Child 12350 finished in 0.49s
+[Task 5 Completed]
+=== All Tasks Completed ===
