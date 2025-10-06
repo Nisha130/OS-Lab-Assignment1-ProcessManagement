@@ -1,0 +1,33 @@
+K.R. Mangalam University
+Department of Computer Science and Engineering
+
+Operating System Lab Assignment – 1
+Course Code: ENCS351
+Student Name: Nisha Sangwan
+Roll No: 2301010068
+
+---
+
+Title:
+Process Creation and Management Using Python OS Module
+
+Objectives:
+• Understand process creation and hierarchy.
+• Execute system commands using exec().
+• Demonstrate zombie and orphan process behavior.
+• Explore process details from /proc filesystem.
+• Observe effect of priority using nice().
+
+Tools Used:
+Python 3.x, Linux OS (os, subprocess modules)
+
+Results & Observations:
+• Successfully created multiple child processes.
+• Commands executed correctly using execvp.
+• Zombie process observed in ps -el as <defunct>.
+• Orphan process re-parented to init (PID 1).
+• Different nice values showed timing variations.
+
+Conclusion:
+All tasks successfully implemented.
+This lab enhanced understanding of process management and scheduling in operating systems.
